@@ -1,0 +1,63 @@
+[
+
+    {"id": 1, "brand": "Ford", "model": "Focus", "color": "Fekete", "year": 2022, "fuelType": "Hibrid"},
+
+    {"id": 2, "brand": "Volkswagen", "model": "Polo", "color": "Piros", "year": 2010, "fuelType": "Dízel"},
+
+    {"id": 3, "brand": "Opel", "model": "Astra", "color": "Fekete", "year": 2013, "fuelType": "Benzin"},
+
+    {"id": 4, "brand": "BMW", "model": "X5", "color": "Fekete", "year": 2021, "fuelType": "Elektromos"},
+
+    {"id": 5, "brand": "BMW", "model": "5 Series", "color": "Kék", "year": 2020, "fuelType": "Hibrid"},
+
+    {"id": 6, "brand": "Volkswagen", "model": "Passat", "color": "Zöld", "year": 2012, "fuelType": "Elektromos"},
+
+    {"id": 7, "brand": "Volkswagen", "model": "Polo", "color": "Zöld", "year": 2016, "fuelType": "Elektromos"},
+
+    {"id": 8, "brand": "Ford", "model": "Focus", "color": "Fekete", "year": 2017, "fuelType": "Hibrid"},
+
+    {"id": 9, "brand": "Toyota", "model": "Camry", "color": "Fehér", "year": 2017, "fuelType": "Hibrid"},
+
+    {"id": 10, "brand": "Opel", "model": "Insignia", "color": "Piros", "year": 2023, "fuelType": "Hibrid"},
+
+    {"id": 11, "brand": "BMW", "model": "X3", "color": "Szürke", "year": 2021, "fuelType": "Elektromos"},
+
+    {"id": 12, "brand": "Ford", "model": "Fiesta", "color": "Kék", "year": 2014, "fuelType": "Elektromos"},
+
+    {"id": 13, "brand": "Toyota", "model": "Camry", "color": "Zöld", "year": 2022, "fuelType": "Elektromos"},
+
+    {"id": 14, "brand": "BMW", "model": "X5", "color": "Kék", "year": 2010, "fuelType": "Benzin"},
+
+    {"id": 15, "brand": "BMW", "model": "X3", "color": "Szürke", "year": 2011, "fuelType": "Dízel"},
+
+    {"id": 16, "brand": "Volkswagen", "model": "Tiguan", "color": "Fekete", "year": 2022, "fuelType": "Hibrid"},
+
+    {"id": 17, "brand": "Toyota", "model": "Yaris", "color": "Kék", "year": 2018, "fuelType": "Benzin"},
+
+    {"id": 18, "brand": "BMW", "model": "X3", "color": "Zöld", "year": 2013, "fuelType": "Dízel"},
+
+    {"id": 19, "brand": "Volkswagen", "model": "Golf", "color": "Piros", "year": 2020, "fuelType": "Elektromos"},
+
+    {"id": 20, "brand": "BMW", "model": "5 Series", "color": "Piros", "year": 2012, "fuelType": "Benzin"},
+
+    {"id": 21, "brand": "Toyota", "model": "Camry", "color": "Kék", "year": 2022, "fuelType": "Dízel"},
+
+    {"id": 22, "brand": "Volkswagen", "model": "Tiguan", "color": "Fehér", "year": 2020, "fuelType": "Benzin"},
+
+    {"id": 23, "brand": "Ford", "model": "Focus", "color": "Zöld", "year": 2013, "fuelType": "Dízel"},
+
+    {"id": 24, "brand": "BMW", "model": "5 Series", "color": "Piros", "year": 2012, "fuelType": "Hibrid"},
+
+    {"id": 25, "brand": "Ford", "model": "Focus", "color": "Zöld", "year": 2010, "fuelType": "Dízel"},
+
+    {"id": 26, "brand": "Opel", "model": "Corsa", "color": "Zöld", "year": 2022, "fuelType": "Benzin"},
+
+    {"id": 27, "brand": "BMW", "model": "5 Series", "color": "Szürke", "year": 2014, "fuelType": "Dízel"},
+
+    {"id": 28, "brand": "Opel", "model": "Corsa", "color": "Fekete", "year": 2020, "fuelType": "Benzin"},
+
+    {"id": 29, "brand": "Ford", "model": "Mondeo", "color": "Zöld", "year": 2013, "fuelType": "Dízel"},
+
+    {"id": 30, "brand": "Opel", "model": "Corsa", "color": "Szürke", "year": 2016, "fuelType": "Benzin"}
+
+]

@@ -41,4 +41,63 @@ router.get('/testsql', async (request, response) => {
     }
 });
 
+router.get('/selectCars', async (request, response) => {
+    try {
+        const selectall = await database.selectCars();
+        response.status(200).json({
+            message: 'Ez a végpont működik.',
+            results: selectall
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: 'Ez a végpont nem működik.'
+        });
+    }
+});
+
+router.get('/stats', async (request, response) => {
+    try {
+        const selectall = await database.selectCars();
+        let markak = [];
+        selectall.forEach((element) => {
+            let found = false;
+            let i = 0;
+
+            while (i < markak.length && !found) {
+                if (markak[i].brand == element.brand) {
+                    markak[i].db++;
+                    found = true;
+                }
+                i++;
+            }
+
+            if (!found) {
+                markak.push({ brand: element.brand, db: 1 });
+            }
+        });
+        response.status(200).json({
+            message: 'Stats fetched successfully.',
+            results: markak
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        });
+    }
+});
+
+router.post('/uploadCar', upload.none(), async (request, response) => {
+    try {
+        let autok = request.body;
+        await database.uploadCar(autok.brand, autok.model, autok.color, autok.year, autok.fuelType);
+        response.status(200).json({
+            message: 'Car added successfully.'
+        });
+    } catch (error) {
+        response.status(500).json({
+            message: error.message
+        });
+    }
+});
+
 module.exports = router;
